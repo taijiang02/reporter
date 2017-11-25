@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-11-25 06:38:58
+/* Smarty version 3.1.30, created on 2017-11-25 05:31:58
   from "F:\!!!kcy6013\UniServerZ\www\reporter\templates\op_list_article.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5a19100284a371_35175462',
+  'unifunc' => 'content_5a19004e671ce4_76833199',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5a19100284a371_35175462 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5a19004e671ce4_76833199 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div class="img-container">
     <div class="container">

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-11-25 06:38:58
-  from "F:\!!!kcy6013\UniServerZ\www\reporter\templates\op_list_article.tpl" */
+/* Smarty version 3.1.30, created on 2017-11-18 12:04:50
+  from "J:\!!!kcy6013\UniServerZ\www\reporter\templates\op_list_article.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5a19100284a371_35175462',
+  'unifunc' => 'content_5a1021e26a9a46_68134095',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
-    'faa6069bf5d33d11c9371a6ebb99847434cdb7f4' => 
+    '3b45755795fd78f06061a97ff4780ced0c97c20f' => 
     array (
-      0 => 'F:\\!!!kcy6013\\UniServerZ\\www\\reporter\\templates\\op_list_article.tpl',
-      1 => 1511587764,
+      0 => 'J:\\!!!kcy6013\\UniServerZ\\www\\reporter\\templates\\op_list_article.tpl',
+      1 => 1510991706,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5a19100284a371_35175462 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5a1021e26a9a46_68134095 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div class="img-container">
     <div class="container">
@@ -28,7 +28,7 @@ function content_5a19100284a371_35175462 (Smarty_Internal_Template $_smarty_tpl)
     </div>
 </div>
 <div class="container">
-    <h1 class="my-3 text-center">最新文章</h1>
+    <h1 class="my-3 text-center">醉心文章</h1>
     <div class="row">
         <?php
 $_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['all']->value, 'article');

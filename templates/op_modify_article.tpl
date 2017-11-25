@@ -18,7 +18,7 @@
     </div>
 
     <div class="text-center">
-        <input type="hidden" name="op" value="{$article.sn}">
+        <input type="hidden" name="sn" value="{$article.sn}">
         <input type="hidden" name="op" value="update">
         <input type="hidden" name="username" value="{$smarty.session.username}">
         <button type="submit" class="btn btn-primary">更新</button>

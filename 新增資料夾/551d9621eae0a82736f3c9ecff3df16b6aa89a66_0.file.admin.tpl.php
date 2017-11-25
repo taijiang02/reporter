@@ -1,17 +1,17 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-11-25 06:39:01
-  from "F:\!!!kcy6013\UniServerZ\www\reporter\templates\admin.tpl" */
+/* Smarty version 3.1.30, created on 2017-11-18 12:05:13
+  from "J:\!!!kcy6013\UniServerZ\www\reporter\templates\admin.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5a1910059603f2_89233518',
+  'unifunc' => 'content_5a1021f92d6a49_66022439',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
-    '1a4ab2263daae59a6d2df8570bf0124edf6906a3' => 
+    '551d9621eae0a82736f3c9ecff3df16b6aa89a66' => 
     array (
-      0 => 'F:\\!!!kcy6013\\UniServerZ\\www\\reporter\\templates\\admin.tpl',
+      0 => 'J:\\!!!kcy6013\\UniServerZ\\www\\reporter\\templates\\admin.tpl',
       1 => 1510989768,
       2 => 'file',
     ),
@@ -24,7 +24,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:footer.tpl' => 1,
   ),
 ),false)) {
-function content_5a1910059603f2_89233518 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5a1021f92d6a49_66022439 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!doctype html>
 <html lang="zh-Hant-TW">

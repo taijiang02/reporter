@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-11-25 06:39:01
-  from "F:\!!!kcy6013\UniServerZ\www\reporter\templates\admin.tpl" */
+/* Smarty version 3.1.30, created on 2017-11-18 12:04:50
+  from "J:\!!!kcy6013\UniServerZ\www\reporter\templates\index.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5a1910059603f2_89233518',
+  'unifunc' => 'content_5a1021e25f96b2_06761783',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
-    '1a4ab2263daae59a6d2df8570bf0124edf6906a3' => 
+    'c560b7e87461092dc89dbdd1dd15ce5b01c25594' => 
     array (
-      0 => 'F:\\!!!kcy6013\\UniServerZ\\www\\reporter\\templates\\admin.tpl',
-      1 => 1510989768,
+      0 => 'J:\\!!!kcy6013\\UniServerZ\\www\\reporter\\templates\\index.tpl',
+      1 => 1510991694,
       2 => 'file',
     ),
   ),
@@ -24,7 +24,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:footer.tpl' => 1,
   ),
 ),false)) {
-function content_5a1910059603f2_89233518 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5a1021e25f96b2_06761783 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!doctype html>
 <html lang="zh-Hant-TW">
@@ -36,14 +36,17 @@ function content_5a1910059603f2_89233518 (Smarty_Internal_Template $_smarty_tpl)
 </head>
 
 <body>
+
     <?php $_smarty_tpl->_subTemplateRender("file:nav.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
 ?>
 
-    <div class="container">
-        <?php $_smarty_tpl->_subTemplateRender("file:op_".((string)$_smarty_tpl->tpl_vars['op']->value).".tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, true);
+
+
+    <!-- 自動載入 $op 對應的樣板檔 -->
+    <?php $_smarty_tpl->_subTemplateRender("file:op_".((string)$_smarty_tpl->tpl_vars['op']->value).".tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, true);
 ?>
 
-    </div>
+    <!-- 自動載入頁尾樣板檔 -->
     <?php $_smarty_tpl->_subTemplateRender("file:footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
 ?>
 
