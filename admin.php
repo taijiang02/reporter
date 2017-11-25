@@ -27,6 +27,10 @@ switch ($op) {
     case 'article_form':
         break;
 
+    case 'modify_article':
+        show_article($sn);
+        break;
+
     default:
         // header("location:index.php");
         break;
