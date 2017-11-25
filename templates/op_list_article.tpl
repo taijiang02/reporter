@@ -4,7 +4,7 @@
     </div>
 </div>
 <div class="container">
-    <h1 class="my-3 text-center">醉心文章</h1>
+    <h1 class="my-3 text-center">最新文章</h1>
     <div class="row">
         {foreach $all as $article}
         <div class="col-sm-4">
